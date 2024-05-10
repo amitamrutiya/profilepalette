@@ -12,6 +12,8 @@
     "@react-three/drei": "^9.105.6",
     "@react-three/fiber": "^8.16.5",
     "clsx": "^2.1.1",
+    "framer-motion": "^11.1.9",
+    "lucide-react": "^0.378.0",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18"
