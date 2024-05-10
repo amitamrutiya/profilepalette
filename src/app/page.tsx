@@ -2,6 +2,7 @@ import Image from "next/image";
 import bg from "../../public/background/home-background.png";
 import RenderModel from "@/components/RenderModel";
 import WizardModel from "@/components/models/Wizard";
+import Navigation from "@/components/navigation";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         fill
       />
       <div className="w-full h-screen">
+        <Navigation />
         <RenderModel>
           <WizardModel />
         </RenderModel>
