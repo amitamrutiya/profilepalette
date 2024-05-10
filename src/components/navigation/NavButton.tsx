@@ -61,8 +61,7 @@ function NavButton({ x, y, label, link, icon, newTab }: NavButtonProps) {
         href={link}
         target={newTab ? "_blank" : "_self"}
         className="text-foreground  rounded-full flex items-center justify-center
-        custom-bg
-        "
+        custom-bg "
         aria-label={label}
         key={label}
         prefetch={false}
