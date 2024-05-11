@@ -1,9 +1,29 @@
-interface BtnListType {
-  label: string;
-  link: string;
-  icon: string;
-  newTab: boolean;
-}
+import { BtnListType, ProjectListType } from "./types";
+
+export const projectsData: ProjectListType[] = [
+  {
+    id: 1,
+    name: "StudyNotion",
+    subHeading: "Online Learning Platform",
+    description:
+      "StudyNotion is an online learning platform that allows students to learn and collaborate with each other. Also allows teachers to create courses and manage students.",
+    demoLink: "https://studynotion.store",
+    sourceLink: "https://github.com/amitamrutiya2210/Study-Notion",
+    imageUrl: "projects/studynotion.png",
+    techStack: [
+      "Html",
+      "Css",
+      "JavaScript",
+      "React",
+      "Express",
+      "NodeJS",
+      "MongoDB",
+      "Tailwind",
+      "Razorpay",
+      "Git",
+    ],
+  },
+];
 
 export const BtnList: BtnListType[] = [
   { label: "Home", link: "/", icon: "home", newTab: false },

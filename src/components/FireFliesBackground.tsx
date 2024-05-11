@@ -38,7 +38,7 @@ const FireFliesBackground = () => {
         return (
           <div
             key={firefly.id}
-            className="absolute roudned-full w-[10px] h-[10px] bg-firefly-radial"
+            className="absolute roudned-full w-[12px] h-[12px] bg-firefly-radial"
             style={{
               top: firefly.top,
               left: firefly.left,
