@@ -33,9 +33,9 @@ function ProjectLayout({
         {dropDown && (
           <motion.div
             initial={{ y: "0%" }}
-            animate={{ y: "3%" }}
+            animate={{ y: "2%" }}
             exit={{ y: "0%" }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 0.2}}
             className="w-full mt-2 overflow-hidden text-sm md:text-base flex items-center justify-between rounded-lg p-4 md:p-6 custom-bg"
           >
             <div className="p-4">
