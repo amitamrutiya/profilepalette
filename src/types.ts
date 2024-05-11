@@ -10,7 +10,6 @@ export interface ProjectListType {
   name: string;
   subHeading: string;
   description: string;
-  imageUrl: string;
   demoLink: string;
   sourceLink: string;
   techStack: string[];

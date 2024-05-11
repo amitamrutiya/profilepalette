@@ -9,7 +9,6 @@ export const projectsData: ProjectListType[] = [
       "StudyNotion is an online learning platform that allows students to learn and collaborate with each other. Also allows teachers to create courses and manage students.",
     demoLink: "https://studynotion.store",
     sourceLink: "https://github.com/amitamrutiya2210/Study-Notion",
-    imageUrl: "projects/studynotion.png",
     techStack: [
       "Html",
       "Css",
