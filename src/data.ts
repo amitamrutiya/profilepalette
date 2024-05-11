@@ -22,6 +22,24 @@ export const projectsData: ProjectListType[] = [
       "Git",
     ],
   },
+  {
+    id: 2,
+    name: "MeetNChillChat",
+    subHeading: "Video Calling Application",
+    description:
+      "MeetnChillChat is a video calling, chatting, and streaming application with a backend and a user interface. Enjoy the seamless video calling, streaming and chatting experience.",
+    demoLink: "https://meetn-chat.vercel.app",
+    sourceLink: "https://github.com/amitamrutiya2210/MeetnChat",
+    techStack: [
+      "NextJS",
+      "TypeScript",
+      "Tailwind",
+      "ShadCN",
+      "Git",
+      "WebRTC",
+      "Socket.io",
+    ],
+  },
 ];
 
 export const BtnList: BtnListType[] = [
