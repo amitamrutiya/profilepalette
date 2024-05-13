@@ -35,7 +35,7 @@ function ProjectLayout({
             initial={{ y: "0%" }}
             animate={{ y: "2%" }}
             exit={{ y: "0%" }}
-            transition={{ duration: 0.2}}
+            transition={{ duration: 0.2 }}
             className="w-full mt-2 overflow-hidden text-sm md:text-base flex items-center justify-between rounded-lg p-4 md:p-6 custom-bg"
           >
             <div className="p-4">
@@ -53,12 +53,12 @@ function ProjectLayout({
                 ))}
               </div>
               <div className="mt-6">
-                <Link href={demoLink}>
+                <Link href={demoLink} target="_blank">
                   <span className="inline-block px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-500 hover:text-white transition-colors duration-200">
                     Demo
                   </span>
                 </Link>
-                <Link href={sourceLink}>
+                <Link href={sourceLink} target="_blank">
                   <span className="ml-2 inline-block px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-500 hover:text-white transition-colors duration-200">
                     Source Code
                   </span>
