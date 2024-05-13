@@ -35,6 +35,9 @@ const config: Config = {
           "100%": { transform: "rotate(-360deg)" },
         },
       },
+      screens: {
+        xs: "480px",
+      },
     },
   },
   plugins: [],
