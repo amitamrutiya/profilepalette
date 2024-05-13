@@ -2,6 +2,7 @@ import {
   Github,
   Home,
   Linkedin,
+  Newspaper,
   NotebookText,
   Palette,
   Phone,
@@ -26,8 +27,8 @@ interface NavButtonProps {
 
 const getIcon = (icon: string) => {
   switch (icon) {
-    case "home":
-      return <Home className="w-full h-auto" strokeWidth={1.5} />;
+    case "blog":
+      return <Newspaper className="w-full h-auto" strokeWidth={1.5} />;
     case "about":
       return <User className="w-full h-auto" strokeWidth={1.5} />;
     case "projects":

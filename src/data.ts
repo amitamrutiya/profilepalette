@@ -158,7 +158,12 @@ export const projectsData: ProjectListType[] = [
 ];
 
 export const BtnList: BtnListType[] = [
-  { label: "Home", link: "/", icon: "home", newTab: false },
+  {
+    label: "Blog",
+    link: "/https://medium.com/@amitamrutiya2210",
+    icon: "blog",
+    newTab: true,
+  },
   { label: "About", link: "/about", icon: "about", newTab: false },
   { label: "Projects", link: "/projects", icon: "projects", newTab: false },
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
