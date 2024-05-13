@@ -5,7 +5,7 @@ import ItemLayout from "./ItemLayout";
 
 const AboutDetails = () => {
   return (
-    <section className="px-20 pb-20 w-full">
+    <section className="sm:px-20 sm:pb-20 px-5 pb-5 w-full">
       <div className="grid grid-cols-12 gap-4 xs:gap-6  md:gap-8 w-full">
         <ItemLayout
           className={
@@ -15,7 +15,7 @@ const AboutDetails = () => {
           <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
             Architect of Enchantment
           </h2>
-          <p className="font-light  text-xs sm:text-sm md:text-base   ">
+          <p className="font-light  text-sm sm:text-md md:text-base   ">
             My journey in web development is powered by an array of mystical
             tools and languages, with JavaScript casting the core of my
             enchantments. I wield frameworks like React.js and Next.js with

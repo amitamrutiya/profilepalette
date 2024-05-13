@@ -45,7 +45,15 @@ function Navigation() {
                 const x = `calc(${radius}*${Math.cos(angleRad)})`;
                 const y = `calc(${radius}*${Math.sin(angleRad)})`;
 
-                return <NavButton key={btn.label} x={x} y={y} {...btn} />;
+                return (
+                  <NavButton
+                    key={btn.label}
+                    x={x}
+                    y={y}
+                    {...btn}
+                    labelDirection="right"
+                  />
+                );
               })}
             </motion.div>
           ) : (
@@ -57,7 +65,15 @@ function Navigation() {
                 className="w-full px-2.5 xs:p-0 xs:w-max flex flex-col space-y-4 item-start xs:items-center justify-center relative  group xs:hidden"
               >
                 {BtnList.slice(0, BtnList.length / 2).map((btn) => {
-                  return <NavButton key={btn.label} x={"0"} y={"0"} {...btn} />;
+                  return (
+                    <NavButton
+                      key={btn.label}
+                      x={"0"}
+                      y={"0"}
+                      {...btn}
+                      labelDirection="right"
+                    />
+                  );
                 })}
               </motion.div>
 

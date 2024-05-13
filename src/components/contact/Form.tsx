@@ -102,7 +102,7 @@ export default function Form() {
         initial="hidden"
         animate="show"
         onSubmit={onSubmit}
-        className="max-w-lg w-full flex flex-col items-center justify-center space-y-4"
+        className="max-w-lg w-full flex flex-col items-center justify-center space-y-4 "
       >
         <motion.input
           variants={item}

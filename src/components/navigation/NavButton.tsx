@@ -21,7 +21,7 @@ interface NavButtonProps {
   link: string;
   icon: string;
   newTab: boolean;
-  labelDirection?: string;
+  labelDirection: string;
 }
 
 const getIcon = (icon: string) => {
@@ -60,7 +60,7 @@ function NavButton({
   link,
   icon,
   newTab,
-  labelDirection = "right",
+  labelDirection,
 }: NavButtonProps) {
   return (
     <ResponsiveComponent>
