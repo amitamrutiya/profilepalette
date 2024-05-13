@@ -1,10 +1,9 @@
 import Image from "next/image";
-import bg from "../../../public/background/home-background.png";
+import bg from "../../../public/background/projects-background.png";
 import ProjectList from "@/components/projects";
 import { projectsData } from "@/data";
 import RenderModel from "@/components/RenderModel";
 import dynamic from "next/dynamic";
-
 
 const StaffModel = dynamic(() => import("@/components/models/Staff"), {
   ssr: false,

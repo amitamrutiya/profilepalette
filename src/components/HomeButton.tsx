@@ -12,7 +12,7 @@ const HomeBtn = () => {
     <NavLink
       initial={{ scale: 0 }}
       animate={{ scale: 1 }}
-      transition={{ delay: 1 }}
+      transition={{ delay: 0.2 }}
       href={"/"}
       target={"_self"}
       className="text-foreground  rounded-full flex items-center justify-center
