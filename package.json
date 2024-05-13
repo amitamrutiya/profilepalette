@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@react-three/drei": "^9.105.6",
     "@react-three/fiber": "^8.16.5",
     "clsx": "^2.1.1",
@@ -16,7 +17,8 @@
     "lucide-react": "^0.378.0",
     "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "sonner": "^1.4.41"
   },
   "devDependencies": {
     "@types/node": "^20",
