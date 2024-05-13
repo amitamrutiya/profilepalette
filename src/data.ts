@@ -160,7 +160,7 @@ export const projectsData: ProjectListType[] = [
 export const BtnList: BtnListType[] = [
   {
     label: "Blog",
-    link: "/https://medium.com/@amitamrutiya2210",
+    link: "https://medium.com/@amitamrutiya2210",
     icon: "blog",
     newTab: true,
   },
