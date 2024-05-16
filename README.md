@@ -1,4 +1,4 @@
-![Screenshot from 2024-05-16 19-32-29](https://github.com/amitamrutiya2210/profilepalette/assets/91112485/6e711b00-7ec5-45fa-bf94-eee017cca58a)# Amit's Creative Portfolio Website [(live)](https://profilepalette.vercel.app/)
+# Amit's Creative Portfolio Website [(live)](https://profilepalette.vercel.app/)
 
 This is an open-source portfolio website template designed for developers who want a visually appealing, responsive and animated website without extensive custom development. You can easily use this template by copying the code and adding your own data to create a similar animated website showcasing your projects, contact information, about section, and social media links.
 
