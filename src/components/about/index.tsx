@@ -12,10 +12,10 @@ const AboutDetails = () => {
             "col-span-full lg:col-span-8 row-span-2 flex-col items-start"
           }
         >
-          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
+          <h2 className=" text-xl md:text-2xl text-left w-full capitalize">
             Architect of Enchantment
           </h2>
-          <p className="font-light  text-sm sm:text-md md:text-base   ">
+          <p className="font-light text-sm sm:text-md md:text-base  ">
             My journey in web development is powered by an array of mystical
             tools and languages, with JavaScript casting the core of my
             enchantments. I wield frameworks like React.js and Next.js with
@@ -46,6 +46,116 @@ const AboutDetails = () => {
             1+
             <sub className="font-semibold text-base">years of experience</sub>
           </p>
+        </ItemLayout>
+
+        <ItemLayout
+          className={
+            "col-span-full xs:col-span-6 lg:col-span-4 text-accent cursor-pointer"
+          }
+        >
+          <Link
+            href="https://drive.google.com/file/d/12MHSBjBiGtWHKhgAPfJjd4Yvv4N3BxQS/view"
+            target="_blank"
+          >
+            <div className="font-semibold w-full text-left text-3xl space-y-4">
+              <p className="font-semibold">Code Expert Solution</p>
+              <ul className="font-light text-sm sm:text-md md:text-base list-disc list-inside text-white">
+                <li>
+                  I work on a project which is based on
+                  <b className="font-extrabold">Flutter</b> and
+                  <b className="font-extrabold">NextJS.</b>
+                </li>
+                <li>
+                  Finished half complete E-commerce platform for buy and sell
+                  the clothes online
+                </li>
+                <li>
+                  Implemented my <b className="font-extrabold">TypeScript</b>{" "}
+                  and
+                  <b className="font-extrabold"> Dart</b> knowledge to build the
+                  client&apos;s project.
+                </li>
+              </ul>
+              <p className="float-end font-semibold text-xs">
+                December 2023 - May 2024
+              </p>
+            </div>
+          </Link>
+        </ItemLayout>
+
+        <ItemLayout
+          className={
+            "col-span-full xs:col-span-6 lg:col-span-4 text-accent cursor-pointer"
+          }
+        >
+          <Link
+            href="https://drive.google.com/file/d/1w34H0aUXMc136gVbCna7Sh-tntEL2jwm/view"
+            target="_blank"
+          >
+            <div className="font-semibold w-full text-left text-3xl space-y-4">
+              <p className="font-semibold">
+                Google Summer of Code
+                <span className="font-semibold text-base">@CCExtractor</span>
+              </p>
+              <ul className="font-light text-sm sm:text-md md:text-base list-disc list-inside text-white">
+                <li>
+                  Contributed to the
+                  <b className="font-extrabold"> Flood Mobile </b> project
+                  within the CCExtractor organization.
+                </li>
+                <li>
+                  Utilized <b className="font-extrabold">Flutter</b> and
+                  <b className="font-extrabold"> Dart</b> for development.
+                </li>
+                <li>
+                  Made <b className="font-extrabold">100+ commits</b> and
+                  implemented <b className="font-extrabold">15+ </b>new
+                  features.
+                </li>
+                <li>Released a new Flood Mobile app on the Play Store.</li>
+              </ul>
+              <p className="float-end font-semibold text-xs">
+                May 2023 - September 2023
+              </p>
+            </div>
+          </Link>
+        </ItemLayout>
+
+        <ItemLayout
+          className={
+            "col-span-full xs:col-span-6 lg:col-span-4 text-accent cursor-pointer"
+          }
+        >
+          <Link
+            href="https://drive.google.com/file/d/17bNi84LrxCNu1Dc1Y7Sq4VcRJ0YRaJ8i/view"
+            target="_blank"
+          >
+            <div className="font-semibold w-full text-left text-3xl space-y-4">
+              <p className="font-semibold">
+                Prelax Infotech
+                <span className="font-semibold text-base">Gujarat</span>
+              </p>
+              <ul className="font-light text-sm sm:text-md md:text-base list-disc list-inside text-white">
+                <li>
+                  Prelax Infotech is an ISO-9001-certified company that was
+                  established in 2013.
+                </li>
+                <li>
+                  I learned two app development technologies:- Flutter and Dart.
+                </li>
+                <li>
+                  I work on a project which is based on
+                  <b className="font-extrabold">Flutter</b>.
+                </li>
+                <li>
+                  Actively participated in a Flutter project over two months.
+                </li>
+              </ul>
+              <p className="float-end font-semibold text-xs">
+                May 2022 - July 2022
+              </p>
+            </div>
+          </Link>
         </ItemLayout>
 
         <ItemLayout
